@@ -23,6 +23,7 @@
 13. creco-org/bash-config 세팅
 14. https://iterm2.com/ 다운로드
 15. vscode 설치 - turn sync on
+16. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 
 자동화 필요
