@@ -22,10 +22,11 @@
 12. https://brew.sh/ 설치
 13. git 설치
 14. ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
-15. creco-org/bash-config 세팅
-16. https://iterm2.com/ 다운로드
-17. vscode 설치 - turn sync on
-18. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
+15. cat ~/.ssh/id_rsa.pub >> git site
+16. creco-org/bash-config 세팅
+17. https://iterm2.com/ 다운로드
+18. vscode 설치 - turn sync on
+19. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 
 자동화 필요
