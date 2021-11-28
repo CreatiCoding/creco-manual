@@ -21,10 +21,11 @@
 11. 카카오톡 설치 후, 계정 연동 / 로그인
 12. https://brew.sh/ 설치
 13. git 설치
-14. creco-org/bash-config 세팅
-15. https://iterm2.com/ 다운로드
-16. vscode 설치 - turn sync on
-17. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
+14. ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
+15. creco-org/bash-config 세팅
+16. https://iterm2.com/ 다운로드
+17. vscode 설치 - turn sync on
+18. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 
 자동화 필요
