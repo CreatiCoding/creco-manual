@@ -29,5 +29,8 @@
 19. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 
+Karabiner 설정
+karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/fn2-hyper-key.json
+
 자동화 필요
 지속적 업데이트 필요
