@@ -30,7 +30,8 @@
 
 
 Karabiner 설정
-karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/fn2-hyper-key.json
+
+[👉 바로추가하기](karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config.json)
 
 자동화 필요
 지속적 업데이트 필요
