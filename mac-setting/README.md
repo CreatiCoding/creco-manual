@@ -31,7 +31,7 @@
 
 Karabiner 설정
 
-[👉 바로추가하기](karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config.json)
+[👉 바로추가하기](karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20211203.json)
 
 자동화 필요
 지속적 업데이트 필요
