@@ -21,16 +21,23 @@
 11. OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
 12. 1password 설치 (app and chrome extension)
 13. chrome 설치 후, google 계정 연동
+  - 기본 브라우저
 14. 카카오톡 설치 후, 계정 연동 / 로그인
-15. https://brew.sh/ 설치
-16. git 설치
-17. ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
-18. cat ~/.ssh/id_rsa.pub >> git site
-19. creco-org/bash-config 세팅
-20. https://iterm2.com/ 다운로드
-21. vscode 설치 - turn sync on
-22. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
-
+15. 자신을 관리자로 설정 (설정 - 사용자 및 그룹)
+16. https://brew.sh/ 설치
+17. git 설치
+18. direnv 설치
+  - https://formulae.brew.sh/formula/direnv#default
+19. xcode 설치 (13으로)
+20. git ssh 키 세팅
+  -  ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
+  -  cat ~/.ssh/id_rsa.pub >> git site
+21. https://iterm2.com/ 다운로드
+22. creco-org/bash-config 세팅
+23. vscode 설치 - turn sync on
+  - https://code.visualstudio.com/download
+  - 계정 연동
+24. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 Karabiner 설정
 
