@@ -17,7 +17,7 @@
 7. easyRes 설치 (해상도 자유 조절)
 8. karabiner 설치
 9. karabiner.json을 `/Users/[유저명]/.config/karabiner`에 추가
-10. [👉 바로추가하기](karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20211203.json)
+10. 크롬에서 `karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20211203.json` 
 11. slack 설치 후, 워크스페이스 추가
 12. OTP manager 설치 후, mobile google authenticator에서 불러오기
 13. OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
