@@ -33,11 +33,12 @@
   -  ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
   -  cat ~/.ssh/id_rsa.pub >> git site
 21. https://iterm2.com/ 다운로드
-22. creco-org/bash-config 세팅
-23. vscode 설치 - turn sync on
+22. rg 설치 (brew install ripgrep)
+23. creco-org/bash-config 세팅
+24. vscode 설치 - turn sync on
   - https://code.visualstudio.com/download
   - 계정 연동
-24. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
+25. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 Karabiner 설정
 
