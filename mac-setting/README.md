@@ -2,7 +2,7 @@
 
 ## Environment
 
-- Mac mini intel
+- Mac mini intel / Mac M1 Max
 - Keychron (60배열)
 - Magic Trackpad
 
