@@ -19,16 +19,17 @@
 9. slack 설치 후, 워크스페이스 추가
 10. OTP manager 설치 후, mobile google authenticator에서 불러오기
 11. OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
-12. chrome 설치 후, google 계정 연동
-13. 카카오톡 설치 후, 계정 연동 / 로그인
-14. https://brew.sh/ 설치
-15. git 설치
-16. ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
-17. cat ~/.ssh/id_rsa.pub >> git site
-18. creco-org/bash-config 세팅
-19. https://iterm2.com/ 다운로드
-20. vscode 설치 - turn sync on
-21. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
+12. 1password 설치 (app and chrome extension)
+13. chrome 설치 후, google 계정 연동
+14. 카카오톡 설치 후, 계정 연동 / 로그인
+15. https://brew.sh/ 설치
+16. git 설치
+17. ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
+18. cat ~/.ssh/id_rsa.pub >> git site
+19. creco-org/bash-config 세팅
+20. https://iterm2.com/ 다운로드
+21. vscode 설치 - turn sync on
+22. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
 
 
 Karabiner 설정
