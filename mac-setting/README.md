@@ -56,6 +56,10 @@
 30. nvm 설치
   - cl creco-org.github.io/cheatsheet.creco.me/nvm
   - npm install -g yarn
+31. alfred 설치
+  - spotlight 단축키 끄기
+  - alfred 4 세팅 추가
+  - 1password에서 가져오기
 
 
 ----
