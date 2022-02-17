@@ -60,6 +60,9 @@
   - spotlight 단축키 끄기
   - alfred 4 세팅 추가
   - 1password에서 가져오기
+32. 키 반복시 이상한 팝업뜨면서 이상한 글자입력하는거 막기
+  - `defaults write -g ApplePressAndHoldEnabled -bool false`
+  - 한번만 하면 되어서 bash 설정에는 포함 안시킴
 
 
 ----
