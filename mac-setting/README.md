@@ -68,6 +68,8 @@
   - tfenv install
   - tfenv list
   - tfenv use version
+34. hidden bar 설치
+  - https://apps.apple.com/kr/app/hidden-bar/id1452453066?mt=12
 
 
 
