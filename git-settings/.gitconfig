@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = creaticoding
+	email = seokho.jeong@toss.im
+	signingkey = 
+
+[alias]
+    s = switch
+    ru = remote update
+    pl = pull origin HEAD
+    ps = push origin HEAD
