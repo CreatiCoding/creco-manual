@@ -10,6 +10,7 @@
     ss = stash
     ru = remote update
     rs = reset
+    rb = rebase origin/main
     pl = pull origin HEAD
     ps = push origin HEAD
     l = log
