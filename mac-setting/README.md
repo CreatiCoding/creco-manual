@@ -33,10 +33,12 @@
   - https://formulae.brew.sh/formula/direnv#default
 22. xcode 설치 (13으로)
 23. git ssh 키 세팅
-  -  ssh-keygen -t rsa -b 4096 -C "seokho.jeong@이메일"
-  -  cat ~/.ssh/id_rsa.pub >> git site
-  -  git config --global user.name {YOUR_NAME}
+  - ssh-keygen -t rsa -b 4096 -C "seokho.jeong@이메일"
+  - cat ~/.ssh/id_rsa.pub >> git site
+  - git config --global user.name {YOUR_NAME}
   - git config --global user.email {YOUR_EMAIL}
+  - git config --global commit.gpgsign true
+  - git config --global user.signingkey LONG_값
   - git config --global pull.ff only
   - git config --list
 24. gpg 키 설정
