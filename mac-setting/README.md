@@ -6,33 +6,53 @@
 - Keychron (60배열)
 - Magic Trackpad
 
-## To do list
+## Presetting
 
-1. OS 버전을 확인 후, Big Sur 업데이트
-2. 손쉬운 사용 -> 확대 cmd + 스크롤
-3. 맞춤법 끄기
-4. 키보드 키반복, 반복 지연 시간 빠르고 짧게 변경
-5. capslock 보조 키 재설정(지우기)
-6. Dock - 왼쪽, 자동 숨기기, 애니메이션 제거, 필요없는 app 고정 제거
-7. easyRes 설치 (해상도 자유 조절)
-8. karabiner 설치
-9. karabiner.json을 `/Users/[유저명]/.config/karabiner`에 추가
-10. 크롬에서 `karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20211203.json` 
-11. slack 설치 후, 워크스페이스 추가
-12. OTP manager 설치 후, mobile google authenticator에서 불러오기
-13. OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
-14. 1password 설치 (app and chrome extension)
-15. Hot Key App, brightness slider 설치
-16. chrome 설치 후, google 계정 연동
+- OS 버전을 확인 후, Big Sur 업데이트
+- 손쉬운 사용 -> 확대 cmd + 스크롤
+- 맞춤법 끄기
+- 키보드 키반복, 반복 지연 시간 빠르고 짧게 변경
+- capslock 보조 키 재설정(지우기)
+- Dock 
+  - 왼쪽, 자동 숨기기, 애니메이션 제거, 필요없는 app 고정 제거
+- 자신을 관리자로 설정 (설정 - 사용자 및 그룹)
+- 키 반복시 이상한 팝업뜨면서 이상한 글자입력하는거 막기
+  - `defaults write -g ApplePressAndHoldEnabled -bool false`
+  - 한번만 하면 되어서 bash 설정에는 포함 안시킴
+- xcode 설치
+
+## Download List
+- [chrome](https://www.google.co.kr/chrome)
   - 기본 브라우저
-17. 카카오톡 설치 후, 계정 연동 / 로그인
-18. 자신을 관리자로 설정 (설정 - 사용자 및 그룹)
-19. https://brew.sh/ 설치
-20. git 설치
-21. direnv 설치
-  - https://formulae.brew.sh/formula/direnv#default
-22. xcode 설치 (13으로)
-23. git ssh 키 세팅
+- [karabiner](https://karabiner-elements.pqrs.org)
+  - `karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20211203.json`
+- [slack](https://slack.com/intl/ko-kr/downloads/windows)
+- [easyRes](https://apps.apple.com/kr/app/easyres/id688211836?mt=120)
+- [OTP manager](https://apps.apple.com/us/app/otp-manager/id928941247)
+  - OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
+- [1password](https://apps.apple.com/kr/app/1password-7-password-manager/id1333542190?mt=12)
+- [Hot Key](https://apps.apple.com/kr/app/hotkey-app/id975890633?mt=12)
+- [Brightness slider](https://apps.apple.com/kr/app/brightness-slider/id456624497?mt=12)
+- [카카오톡](https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/id869223134?mt=12)
+- [alfred](https://www.alfredapp.com)
+  - spotlight 단축키 끄기
+  - alfred 4 세팅 추가
+  - 1password에서 가져오기
+  <img width="850" alt="image" src="https://user-images.githubusercontent.com/33514304/177676875-a1ae3c15-d1b5-4347-9d2c-e72e31f82949.png">
+  - 이거 끄면 한영 전환해도 서브 메뉴 선택 
+- [hidden bar](https://apps.apple.com/kr/app/hidden-bar/id1452453066?mt=12)
+- [vscode](https://code.visualstudio.com/download)
+  - turn sync on
+- [iterm2](https://iterm2.com/)
+- [brew](https://brew.sh/)
+- [direnv](https://formulae.brew.sh/formula/direnv#default)
+- [폰트 JetBrains Mono](https://www.jetbrains.com/ko-kr/lp/mono/)
+
+
+## Setting
+
+- git 설치
+- git ssh 키 세팅
   - ssh-keygen -t rsa -b 4096 -C "seokho.jeong@이메일"
   - cat ~/.ssh/id_rsa.pub >> git site
   - git config --global user.name {YOUR_NAME}
@@ -41,43 +61,26 @@
   - git config --global user.signingkey LONG_값
   - git config --global pull.ff only
   - git config --list
-24. gpg 키 설정
+- gpg 키 설정
   - brew install --cask gpg-suite
   - gpg --full-generate-key (1, 4096, 0, y, 정석호, seokho.jeong@이메일, o)
   - gpg --list-secret-keys --keyid-format LONG (여기서 sec 라인에 있는 rsa4096/<<KEY>> 중 <<KEY>> 영역을 복사 한다.)
   - git config --global user.signingkey 키
   - gpg --armor --export 키 | pbcopy
   - https://github.com/settings/keys 에 가서 등록하기
-25. https://iterm2.com/ 다운로드
-26. rg 설치 (brew install ripgrep)
-27. creco-org/bash-config 세팅
-28. vscode 설치 - turn sync on
-  - https://code.visualstudio.com/download
-  - 계정 연동
-29. 폰트는 JetBrains Mono - https://www.jetbrains.com/ko-kr/lp/mono/
-30. nvm 설치
-  - cl creco-org.github.io/cheatsheet.creco.me/nvm
+- rg 설치 (brew install ripgrep)
+- nvm 설치
+  - curl -L cheatsheet.creco.me/nvm
   - npm install -g yarn
-31. alfred 설치
-  - spotlight 단축키 끄기
-  - alfred 4 세팅 추가
-  - 1password에서 가져오기
-  <img width="850" alt="image" src="https://user-images.githubusercontent.com/33514304/177676875-a1ae3c15-d1b5-4347-9d2c-e72e31f82949.png">
-  - 이거 끄면 한영 전환해도 서브 메뉴 선택 
-32. 키 반복시 이상한 팝업뜨면서 이상한 글자입력하는거 막기
-  - `defaults write -g ApplePressAndHoldEnabled -bool false`
-  - 한번만 하면 되어서 bash 설정에는 포함 안시킴
-33. terraform 설치
+- terraform 설치
   - brew install tfenv
   - tfenv install
   - tfenv list
   - tfenv use version
-34. hidden bar 설치
-  - https://apps.apple.com/kr/app/hidden-bar/id1452453066?mt=12
+  - brew install --ignore-dependencies terragrunt
+- creco-org/bash-config 세팅
+  - git clone https://github.com/creco-org/bash-config
+  - sudo bash install.sh
+  - sudo chsh -s /bin/bash
 
 
-
-----
-
-자동화 필요
-지속적 업데이트 필요
