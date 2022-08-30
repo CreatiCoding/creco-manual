@@ -70,6 +70,8 @@
   - git config --global user.signingkey 키
   - gpg --armor --export 키 | pbcopy
   - https://github.com/settings/keys 에 가서 등록하기
+  - brew install gpg2
+  - git config --global gpg.program /usr/local/MacGPG2/bin/gpg2
 
 - rg 설치 (brew install ripgrep)
 
