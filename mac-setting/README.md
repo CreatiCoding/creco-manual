@@ -22,6 +22,7 @@
 - xcode 설치
 
 ## Download List
+
 - [chrome](https://www.google.co.kr/chrome)
   - 기본 브라우저
 - [karabiner](https://karabiner-elements.pqrs.org)
@@ -52,15 +53,16 @@
 ## Setting
 
 - git 설치
+
 - git ssh 키 세팅
   - ssh-keygen -t rsa -b 4096 -C "seokho.jeong@이메일"
   - cat ~/.ssh/id_rsa.pub >> git site
   - git config --global user.name {YOUR_NAME}
   - git config --global user.email {YOUR_EMAIL}
   - git config --global commit.gpgsign true
-  - git config --global user.signingkey LONG_값
   - git config --global pull.ff only
   - git config --list
+
 - gpg 키 설정
   - brew install --cask gpg-suite
   - gpg --full-generate-key (1, 4096, 0, y, 정석호, seokho.jeong@이메일, o)
@@ -68,16 +70,20 @@
   - git config --global user.signingkey 키
   - gpg --armor --export 키 | pbcopy
   - https://github.com/settings/keys 에 가서 등록하기
+
 - rg 설치 (brew install ripgrep)
+
 - nvm 설치
   - curl -L cheatsheet.creco.me/nvm
   - npm install -g yarn
+
 - terraform 설치
   - brew install tfenv
   - tfenv install
   - tfenv list
   - tfenv use version
   - brew install --ignore-dependencies terragrunt
+
 - creco-org/bash-config 세팅
   - git clone https://github.com/creco-org/bash-config
   - sudo bash install.sh
