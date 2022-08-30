@@ -85,7 +85,7 @@
   - brew install --ignore-dependencies terragrunt
 
 - creco-org/bash-config 세팅
-  - git clone https://github.com/creco-org/bash-config
+  - git clone git@github.com:creco-org/bash-config.git
   - sudo bash install.sh
   - sudo chsh -s /bin/bash
 
