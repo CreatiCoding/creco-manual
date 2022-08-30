@@ -88,5 +88,7 @@
   - git clone git@github.com:creco-org/bash-config.git
   - sudo bash install.sh
   - sudo chsh -s /bin/bash
+  - <img width="913" alt="image" src="https://user-images.githubusercontent.com/33514304/187356256-74bc92d4-be45-4c05-9122-9fffd8ec8a26.png">
+
 
 
