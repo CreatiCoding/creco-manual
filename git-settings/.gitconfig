@@ -14,4 +14,4 @@
     pl = pull origin HEAD
     ps = push origin HEAD
     l = log
-    bs = branch --sort=committerdate
+    bs = branch --sort=-committerdate
