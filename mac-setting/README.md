@@ -26,7 +26,7 @@
 - [chrome](https://www.google.co.kr/chrome)
   - 기본 브라우저
 - [karabiner](https://karabiner-elements.pqrs.org)
-  - `karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20211203.json`
+  - `karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20221009.json`
 - [slack](https://slack.com/intl/ko-kr/downloads/windows)
 - [easyRes](https://apps.apple.com/kr/app/easyres/id688211836?mt=120)
 - [OTP manager](https://apps.apple.com/us/app/otp-manager/id928941247)
