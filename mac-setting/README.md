@@ -27,7 +27,7 @@
   - 기본 브라우저
 - [karabiner](https://karabiner-elements.pqrs.org)
   - `karabiner://karabiner/assets/complex_modifications/import?url=https://creco-org.github.io/json-storage/karabiner/creco-config-20221009.json`
-- [slack](https://slack.com/intl/ko-kr/downloads/windows)
+- [slack](https://slack.com/intl/ko-kr/downloads/mac)
 - [easyRes](https://apps.apple.com/kr/app/easyres/id688211836?mt=120)
 - [OTP manager](https://apps.apple.com/us/app/otp-manager/id928941247)
   - OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
