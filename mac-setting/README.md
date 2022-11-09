@@ -20,6 +20,10 @@
   - `defaults write -g ApplePressAndHoldEnabled -bool false`
   - 한번만 하면 되어서 bash 설정에는 포함 안시킴
 - xcode 설치
+- hammerspoon
+  ```bash
+    brew install hammerspoon --cask
+  ```
 
 ## Download List
 
