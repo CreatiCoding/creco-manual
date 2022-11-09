@@ -49,7 +49,7 @@
 - [direnv](https://formulae.brew.sh/formula/direnv#default)
 - [폰트 JetBrains Mono](https://www.jetbrains.com/ko-kr/lp/mono/)
 - [gifski](https://gif.ski/)
-
+- [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)
 
 ## Setting
 
