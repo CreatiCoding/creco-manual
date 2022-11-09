@@ -56,24 +56,35 @@
 - git 설치
 
 - git ssh 키 세팅
-  - ssh-keygen -t rsa -b 4096 -C "seokho.jeong@이메일"
-  - cat ~/.ssh/id_rsa.pub >> git site
-  - git config --global user.name {YOUR_NAME}
-  - git config --global user.email {YOUR_EMAIL}
-  - git config --global commit.gpgsign true
-  - git config --global pull.ff only
-  - git config --list
 
+```
+ssh-keygen -t rsa -b 4096 -C "seokho.jeong@toss.im"
+cat ~/.ssh/id_rsa.pub | pbcopy
+open https://github.com/settings/ssh/new
+```
+  
 - gpg 키 설정
-  - brew install --cask gpg-suite
-  - gpg --full-generate-key (1, 4096, 0, y, 정석호, seokho.jeong@이메일, o)
-  - gpg --list-secret-keys --keyid-format LONG (여기서 sec 라인에 있는 rsa4096/<<KEY>> 중 <<KEY>> 영역을 복사 한다.)
-  - git config --global user.signingkey 키
-  - gpg --armor --export 키 | pbcopy
-  - https://github.com/settings/keys 에 가서 등록하기
   - brew install gpg2
-  - git config --global gpg.program /usr/local/MacGPG2/bin/gpg2
+  - brew install --cask gpg-suite
+  - 생성
+    - gpg --full-generate-key (1, 4096, 0, y, 정석호, seokho.jeong@이메일, o)
+  - github 설정
+    - gpg --armor --export  $(gpg --list-secret-keys --keyid-format LONG | grep sec | awk '{ print $2 }' | cut -d "/" -f 2) | pbcopy
+    - open https://github.com/settings/keys
 
+- gitconfig 설정
+
+```bash
+  curl https://creaticoding.github.io/creco-manual/scripts/gitconfig -o .gitconfig
+  cat ~/.gitconfig
+  git config --global user.name 정석호
+  git config --global user.email seokho.jeong@toss.im
+  git config --global commit.gpgsign true
+  git config --global pull.ff only
+  git config --global user.signingkey $(gpg --list-secret-keys --keyid-format LONG | grep sec | awk '{ print $2 }' | cut -d "/" -f 2)
+  git config --global gpg.program /usr/local/MacGPG2/bin/gpg2
+  cat ~/.gitconfig
+```
 - rg 설치 (brew install ripgrep)
 
 - nvm 설치
