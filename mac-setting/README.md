@@ -54,6 +54,8 @@
 - [폰트 JetBrains Mono](https://www.jetbrains.com/ko-kr/lp/mono/)
 - [gifski](https://gif.ski/)
 - [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)
+- [Raycast](https://www.raycast.com/)
+- [spectacle](https://www.spectacleapp.com/)
 
 ## Setting
 
