@@ -83,7 +83,7 @@
   - brew install gpg2
   - brew install --cask gpg-suite
   - 생성
-    - gpg --full-generate-key (1, 4096, 0, y, 정석호, seokho.jeong@이메일, o)
+    - gpg --full-generate-key (1, 4096, 0, y, 정석호, creaticoding@gmail.com, o)
   - github 설정
     - gpg --armor --export  $(gpg --list-secret-keys --keyid-format LONG | grep sec | awk '{ print $2 }' | cut -d "/" -f 2) | pbcopy
     - open https://github.com/settings/keys
@@ -94,7 +94,7 @@
   curl https://creaticoding.github.io/creco-manual/scripts/gitconfig -o .gitconfig
   cat ~/.gitconfig
   git config --global user.name 정석호
-  git config --global user.email seokho.jeong@toss.im
+  git config --global user.email creaticoding@gmail.com
   git config --global commit.gpgsign true
   git config --global pull.ff only
   git config --global user.signingkey $(gpg --list-secret-keys --keyid-format LONG | grep sec | awk '{ print $2 }' | cut -d "/" -f 2)
