@@ -50,7 +50,15 @@
 
 ## Setting
 
+- creco-org/bash-config 세팅
+  - git clone git@github.com:creco-org/bash-config.git
+  - sudo bash install.sh
+  - sudo chsh -s /bin/bash
+
 - git 설치
+  - brew install git
+  - sudo mv /usr/bin/git /usr/bin/git-apple
+  - brew link --force git
 
 - git ssh 키 세팅
 
@@ -95,10 +103,7 @@ open https://github.com/settings/ssh/new
   - tfenv use version
   - brew install --ignore-dependencies terragrunt
 
-- creco-org/bash-config 세팅
-  - git clone git@github.com:creco-org/bash-config.git
-  - sudo bash install.sh
-  - sudo chsh -s /bin/bash
+- iterm2 설정
   - <img width="913" alt="image" src="https://user-images.githubusercontent.com/33514304/187356256-74bc92d4-be45-4c05-9122-9fffd8ec8a26.png">
 
 
