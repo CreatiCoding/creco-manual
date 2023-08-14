@@ -54,10 +54,10 @@
   - hyperkey + s: slack
   - hyperkey + c: chrome
   - hyperkey + t: iterm2
-  - hyperkey + 1: https://div.homes/box/?category=e396a261fcaa122a6544de06f8b74653
-  - hyperkey + 2: https://div.homes/box/?category=a4fd6405fb2a1859662327fcc17511fd
-  - hyperkey + 3: https://div.homes/box/?category=da4341b2929cef6c316e37261cb20a53
-  - hyperkey + 4: https://div.homes/box/?category=43ccc619a0a2aaecc089da2ac21c1e8c
+  - hyperkey + 1: work https://div.homes/box/?category=e396a261fcaa122a6544de06f8b74653
+  - hyperkey + 2: knowledge https://div.homes/box/?category=a4fd6405fb2a1859662327fcc17511fd
+  - hyperkey + 3: remind https://div.homes/box/?category=da4341b2929cef6c316e37261cb20a53
+  - hyperkey + 4: diary https://div.homes/box/?category=43ccc619a0a2aaecc089da2ac21c1e8c
 
 ## Setting
 
