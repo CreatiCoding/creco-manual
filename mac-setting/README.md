@@ -53,23 +53,23 @@
 - gitconfig
   - bash <(curl -s https://creaticoding.github.io/creco-manual/scripts/init.sh)
 
+- git ssh 키 세팅
+
+  ```
+  ssh-keygen -t rsa -b 4096 -C "seokho.jeong@toss.im"
+  cat ~/.ssh/id_rsa.pub | pbcopy
+  open https://github.com/settings/ssh/new
+  ```
+
 - creco-org/bash-config 세팅
   - git clone git@github.com:creco-org/bash-config.git
   - sudo bash install.sh
   - sudo chsh -s /bin/bash
 
-- git 설치
+- git 업데이트
   - brew install git
   - sudo mv /usr/bin/git /usr/bin/git-apple
   - brew link --force git
-
-- git ssh 키 세팅
-
-```
-ssh-keygen -t rsa -b 4096 -C "seokho.jeong@toss.im"
-cat ~/.ssh/id_rsa.pub | pbcopy
-open https://github.com/settings/ssh/new
-```
   
 - gpg 키 설정
   - brew install gpg2
