@@ -1,7 +1,5 @@
 cd ~
 
-curl https://creaticoding.github.io/creco-manual/scripts/init.lua -o .hammerspoon/init.lua
-
 curl https://creaticoding.github.io/creco-manual/scripts/gitconfig -o .gitconfig
 
 git config --global user.name 정석호
