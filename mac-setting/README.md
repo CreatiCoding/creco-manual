@@ -50,6 +50,9 @@
 
 ## Setting
 
+- gitconfig
+  - bash <(curl -s https://creaticoding.github.io/creco-manual/scripts/init.sh)
+
 - creco-org/bash-config 세팅
   - git clone git@github.com:creco-org/bash-config.git
   - sudo bash install.sh
