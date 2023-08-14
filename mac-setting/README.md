@@ -67,7 +67,7 @@
 
   ```
   ssh-keygen -t rsa -b 4096 -C "divopsor@gmail.com" -f ~/.ssh/id_rsa-divopsor
-  cat ~/.ssh/id_rsa.pub | pbcopy
+  cat ~/.ssh/id_rsa-divopsor.pub | pbcopy
   open https://github.com/settings/ssh/new
   ```
   
