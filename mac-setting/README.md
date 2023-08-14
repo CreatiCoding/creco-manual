@@ -37,8 +37,8 @@
 - [easyRes](https://apps.apple.com/kr/app/easyres/id688211836?mt=120)
 - [OTP manager](https://apps.apple.com/us/app/otp-manager/id928941247)
   - OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
-- [1password](https://apps.apple.com/kr/app/1password-7-password-manager/id1333542190?mt=12)
-- [Hot Key](https://apps.apple.com/kr/app/hotkey-app/id975890633?mt=12)
+- [1password](https://1password.com/product/mac/)
+- [Hot Key](https://apps.apple.com/kr/app/hotkey-app/id975890633?mt=12)/
 - [Brightness slider](https://apps.apple.com/kr/app/brightness-slider/id456624497?mt=12)
 - [카카오톡](https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/id869223134?mt=12)
 - [alfred](https://www.alfredapp.com)
