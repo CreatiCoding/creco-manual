@@ -21,6 +21,7 @@
   - 한번만 하면 되어서 bash 설정에는 포함 안시킴
   - `sudo launchctl config user path $PATH`
   - 모든 앱에서 $PATH 를 인식하도록 함
+  - spotlight 단축키 끄기
 - xcode 설치
 - hammerspoon
   ```bash
@@ -38,15 +39,8 @@
 - [OTP manager](https://apps.apple.com/us/app/otp-manager/id928941247)
   - OTP toolbar로만 적용, Dock Icon 제거 (token에서 Enable 5초 비활성, Enable 1 Click 체크)
 - [1password](https://1password.com/product/mac/)
-- [Hot Key](https://apps.apple.com/kr/app/hotkey-app/id975890633?mt=12)/
 - [Brightness slider](https://apps.apple.com/kr/app/brightness-slider/id456624497?mt=12)
 - [카카오톡](https://apps.apple.com/kr/app/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1/id869223134?mt=12)
-- [alfred](https://www.alfredapp.com)
-  - spotlight 단축키 끄기
-  - alfred 4 세팅 추가
-  - 1password에서 가져오기
-  <img width="850" alt="image" src="https://user-images.githubusercontent.com/33514304/177676875-a1ae3c15-d1b5-4347-9d2c-e72e31f82949.png">
-  - 이거 끄면 한영 전환해도 서브 메뉴 선택 
 - [hidden bar](https://apps.apple.com/kr/app/hidden-bar/id1452453066?mt=12)
 - [vscode](https://code.visualstudio.com/download)
   - turn sync on
