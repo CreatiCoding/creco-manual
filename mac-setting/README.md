@@ -102,9 +102,10 @@
   cat ~/.gitconfig
 ```
 
-- nvm 설치
+- node, nvm, yarn, pnpm 설치
   - curl -L cheatsheet.creco.me/nvm
   - npm install -g yarn
+  - npm install -g pnpm
 
 - terraform 설치
   - brew install tfenv
