@@ -58,7 +58,7 @@
 - git ssh 키 세팅
 
   ```
-  ssh-keygen -t rsa -b 4096 -C "seokho.jeong@toss.im"
+  ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
   cat ~/.ssh/id_rsa.pub | pbcopy
   open https://github.com/settings/ssh/new
   ```
