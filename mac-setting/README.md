@@ -25,6 +25,7 @@
   - 모든 앱에서 $PATH 를 인식하도록 함
   - spotlight 단축키 끄기
 - xcode 설치
+- 시스템 설정 > 제어 센터
 
 ## Download List
 
