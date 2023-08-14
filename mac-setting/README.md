@@ -46,7 +46,7 @@
 - [폰트 JetBrains Mono](https://www.jetbrains.com/ko-kr/lp/mono/)
 - [gifski](https://gif.ski/)
 - [Raycast](https://www.raycast.com/)
-- [spectacle](https://www.spectacleapp.com/)
+  - Maximize 설정하기
 
 ## Setting
 
