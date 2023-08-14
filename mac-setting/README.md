@@ -55,13 +55,22 @@
 - gitconfig
   - bash <(curl -s https://creaticoding.github.io/creco-manual/scripts/init.sh)
 
-- git ssh 키 세팅
+- git ssh 키 세팅 (1)
 
   ```
   ssh-keygen -t rsa -b 4096 -C "creaticoding@gmail.com"
   cat ~/.ssh/id_rsa.pub | pbcopy
   open https://github.com/settings/ssh/new
   ```
+
+- git ssh 키 세팅 (2)
+
+  ```
+  ssh-keygen -t rsa -b 4096 -C "divopsor@gmail.com" -f ~/.ssh/id_rsa-divopsor
+  cat ~/.ssh/id_rsa.pub | pbcopy
+  open https://github.com/settings/ssh/new
+  ```
+  
 
 - creco-org/bash-config 세팅
   - git clone git@github.com:creco-org/bash-config.git
