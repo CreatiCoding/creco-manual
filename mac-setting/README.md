@@ -23,10 +23,6 @@
   - 모든 앱에서 $PATH 를 인식하도록 함
   - spotlight 단축키 끄기
 - xcode 설치
-- hammerspoon
-  ```bash
-    brew install hammerspoon --cask
-  ```
 
 ## Download List
 
@@ -49,7 +45,6 @@
 - [direnv](https://formulae.brew.sh/formula/direnv#default)
 - [폰트 JetBrains Mono](https://www.jetbrains.com/ko-kr/lp/mono/)
 - [gifski](https://gif.ski/)
-- [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases)
 - [Raycast](https://www.raycast.com/)
 - [spectacle](https://www.spectacleapp.com/)
 
