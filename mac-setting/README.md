@@ -65,6 +65,12 @@
   - git clone git@github.com:creco-org/bash-config.git
   - sudo bash install.sh
   - sudo chsh -s /bin/bash
+  - iterm 기본 쉘 바꾸기
+
+- iterm2 설정
+  - reuse & bash
+  - <img width="913" alt="image" src="https://user-images.githubusercontent.com/33514304/187356256-74bc92d4-be45-4c05-9122-9fffd8ec8a26.png">
+
 
 - git 업데이트
   - brew install git
@@ -105,9 +111,5 @@
   - tfenv list
   - tfenv use version
   - brew install --ignore-dependencies terragrunt
-
-- iterm2 설정
-  - <img width="913" alt="image" src="https://user-images.githubusercontent.com/33514304/187356256-74bc92d4-be45-4c05-9122-9fffd8ec8a26.png">
-
 
 
