@@ -12,6 +12,8 @@
 - 손쉬운 사용 -> 확대 cmd + 스크롤
 - 맞춤법 끄기
 - 키보드 키반복, 반복 지연 시간 빠르고 짧게 변경
+  - <img width="624" alt="image" src="https://github.com/CreatiCoding/creco-manual/assets/33514304/adc2a5c9-a180-48d9-bc78-a738a0cd90b5">
+  - <img width="671" alt="image" src="https://github.com/CreatiCoding/creco-manual/assets/33514304/687008d3-96e0-4e5b-bbcb-bf5270197fef">
 - capslock 보조 키 재설정(지우기)
 - Dock 
   - 왼쪽, 자동 숨기기, 애니메이션 제거, 필요없는 app 고정 제거
