@@ -50,6 +50,8 @@
 
 ## Setting
 
+- rg 설치 (brew install ripgrep)
+
 - gitconfig
   - bash <(curl -s https://creaticoding.github.io/creco-manual/scripts/init.sh)
 
@@ -99,7 +101,6 @@
   git config --global gpg.program /usr/local/MacGPG2/bin/gpg2
   cat ~/.gitconfig
 ```
-- rg 설치 (brew install ripgrep)
 
 - nvm 설치
   - curl -L cheatsheet.creco.me/nvm
