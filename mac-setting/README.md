@@ -66,6 +66,18 @@
 
 - fd 설치 (brew install fd)
 
+
+
+```
+# 설치
+echo "alias creco-cli='wget -qO- https://gist.githubusercontent.com/CreatiCoding/116f8369f1e8522ceae24936c7b54c82/raw/9df188fb33643d095095157f624828f700462e37/cli.sh | bash -s \"\$@\"'" >> ~/.zshrc
+
+creco-cli ssh-gen divopsor@gmail.com
+creco-cli ssh-gen nodejsdeveloper@kakao.com
+creco-cli ssh-gen creaticoding@gmail.com
+creco-cli ssh-gen seokho.jeong@toss.im
+```
+
 - gitconfig
   - bash <(curl -s https://creaticoding.github.io/creco-manual/scripts/init.sh)
 
