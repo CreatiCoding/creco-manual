@@ -64,6 +64,8 @@
 
 - rg 설치 (brew install ripgrep)
 
+- fd 설치 (brew install fd)
+
 - gitconfig
   - bash <(curl -s https://creaticoding.github.io/creco-manual/scripts/init.sh)
 
